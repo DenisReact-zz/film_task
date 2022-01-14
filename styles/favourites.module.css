@@ -12,7 +12,12 @@
     align-items: center;
     font-size: 25px;
     transform: rotate(45deg);
+    cursor: pointer;
+    transition: .4s;
 }
+.home:hover { 
+    opacity: .6;
+ }
 .container{
     display: flex;
     align-items: center;
