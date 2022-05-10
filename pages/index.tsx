@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import s from '../styles/Home.module.css'
-import BlockFilm from '../components/BlockFilm.tsx'
+import BlockFilm from '../components/BlockFilm'
 import Filter from '../components/Filter'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
