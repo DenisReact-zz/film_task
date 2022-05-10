@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import s from '../styles/favourites.module.css'
-import BlockFilm from '../components/BlockFilm.tsx'
+import BlockFilm from '../components/BlockFilm'
 import { useRouter } from 'next/router';
 
 export default function Home() {
