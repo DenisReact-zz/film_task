@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for home page check layout home page 1`] = `
+<div
+  class="container"
+  data-testid="home"
+>
+  <a
+    class="favourite"
+    href="/favourites"
+  >
+    <img
+      alt=""
+      src="/images/star.svg"
+    />
+  </a>
+  <h2>
+    Top 500 films on TMDB
+  </h2>
+  <div
+    class="filter"
+    data-testid="filters"
+  >
+    <div
+      class="blocks"
+    >
+      <button
+        data-testid="buttonOfFilter"
+      >
+        Descending
+      </button>
+      <button
+        data-testid="buttonOfFilter"
+      >
+        Ascending
+      </button>
+      <div
+        class="thumb"
+      />
+    </div>
+  </div>
+  <div
+    class="blocks"
+  />
+  <div
+    class="navigation"
+  >
+    <button
+      class="prev"
+      data-testid="prevArrow"
+    >
+      ∟
+    </button>
+    <p
+      data-testid="currentPage"
+    >
+      1
+    </p>
+    <button
+      class="next"
+      data-testid="nextArrow"
+    >
+      ∟
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for filters check layout filters 1`] = `
+<div
+  class="filter"
+  data-testid="filters"
+>
+  <div
+    class="blocks"
+  >
+    <button
+      data-testid="buttonOfFilter"
+    >
+      Descending
+    </button>
+    <button
+      data-testid="buttonOfFilter"
+    >
+      Ascending
+    </button>
+    <div
+      class="thumb"
+    />
+  </div>
+</div>
+`;

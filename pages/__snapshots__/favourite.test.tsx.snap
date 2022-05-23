@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for favourite page check layout favourite page 1`] = `
+<div
+  class="container"
+  data-testid="favourite"
+>
+  <p
+    class="home"
+  >
+    ∟
+  </p>
+  <h2>
+    Your Favourite
+  </h2>
+  <div
+    class="blocks"
+  >
+    It's empty
+  </div>
+</div>
+`;
